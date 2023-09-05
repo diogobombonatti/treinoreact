@@ -1,8 +1,8 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Home from '.src/routes/Home/index.jsx'
-import Produtos from '.src/routes/Produtos/index.jsx'
-import Error from './routes/Error/index.jsx'
-import EditarProduto from '.src/routes/EditarProduto/index.jsx'
+import Home from './src/routes/Home/index.jsx'
+import Produtos from './src/routes/Produtos/index.jsx'
+import Error from './src/routes/Error/index.jsx'
+import EditarProduto from './src/routes/EditarProduto/index.jsx'
 
 const router = createBrowserRouter([
   {
