@@ -20,13 +20,13 @@ export const listaProdutos = [
     {
         id: 4,
         nome: 'Tablet Samsung',
-        preco: 200,
+        preco: 2000,
         imagem: 'https://images.samsung.com/is/image/samsung/p6pim/br/sm-x205nzauzto/gallery/br-galaxy-a8-sm-x205-sm-x205nzauzto-530991473?$650_519_PNG$' 
     },
     {
         id: 5,
         nome: 'Ipad',
-        preco: 120,
+        preco: 8000,
         imagem: 'https://m.media-amazon.com/images/I/61sEJ2+OAbL._AC_SX342_SY445_.jpg' 
     }
     ];

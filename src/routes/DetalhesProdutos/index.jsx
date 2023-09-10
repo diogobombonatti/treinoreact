@@ -15,7 +15,7 @@ export default function DetalhesProduto() {
       <h1>Detalhes do Produto</h1>
       <h2>{produto.nome}</h2>
       <p>Preço: R$ {produto.preco}</p>
-      <img src={produto.imagem} alt={produto.nome} />
+      <img src={produto.imagem} alt={produto.nome} className="imagem-produto" />
     </main>
   );
 }

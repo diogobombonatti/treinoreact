@@ -30,6 +30,14 @@
   display: inline-block;
   margin-right: 10px; /* Espaçamento entre as imagens */
 }
+
+
+.imagem-produto {
+  max-width: 200px; /* Largura máxima */
+  max-height: 200px; /* Altura máxima */
+  }
+
+
 nav {
   display: flex;
   justify-content: center;
