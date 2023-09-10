@@ -1,29 +1,29 @@
 export const listaProdutos = [
     {
         id: 1,
-        nome: 'Teclado',
-        preco: 150
+        nome: 'Iphone 8 ',
+        preco: 4000
     },
     {
         id: 2,
-        nome: 'Mouse',
-        preco: 120
+        nome: 'Iphone X',
+        preco: 6000
     },
     {
         id: 3,
-        nome: "Monitor",
+        nome: "Xiaomi Mi10",
         preco: 950
     },
 
     {
         id: 4,
-        nome: "Headset",
+        nome: "Tablet Samsung",
         preco: 200
 
     },
     {
         id: 5,
-        nome: "Webcam",
+        nome: "Ipad",
         preco: 120
     }
 ]

@@ -1,27 +1,21 @@
-import { useParams,useNavigate } from "react-router-dom"
-import {listaProdutos} from "../../components/listaProdutos"
+import { useParams } from "react-router-dom";
+import { listaProdutos } from "../../components/listaProdutos";
 
-export default function EditarProduto() {
-    
-    const lista = listaProdutos
-    const navegacao = useNavigate()
-    const {id} = useParams()
+export default function DetalhesProduto() {
+  const { id } = useParams();
 
-    const proc = lista.filter(prod => prod.id ==id)
-    const produto = proc[0]
+  const produto = listaProdutos.find((prod) => prod.id === id);
 
-    const salvar = () => {
-        alert(`Produto: ${produto.nome}editado com sucesso!`)
-        return navegacao ("/produtos")
-    }
-    
+  if (!produto) {
+    return <div>Produto não encontrado.</div>;
+  }
 
-    return (
-        <main>
-
-            <h1>Editando o produto</h1>
-            <p>Editando os dados do produto: {produto.nome}</p>
-            <button onClick={salvar}>Salvar</button>
-          </main>
-    )
+  return (
+    <main>
+      <h1>Detalhes do Produto</h1>
+      <h2>{produto.nome}</h2>
+      <p>Preço: R$ {produto.preco}</p>
+      <img src={`url_da_foto_do_produto`} alt={produto.nome} />
+    </main>
+  );
 }
