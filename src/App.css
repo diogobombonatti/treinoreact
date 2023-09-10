@@ -48,3 +48,8 @@ main {
   height: 100vh; /* Alterado para ocupar a altura total da tela */
   background-color: darkblue;
 }
+
+.imagem-promocao {
+  display: inline-block;
+  margin-right: 10px; /* Espaçamento entre as imagens */
+}
