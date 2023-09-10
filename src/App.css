@@ -35,7 +35,7 @@ nav {
   justify-content: center;
   align-items: center;
   height: 8vh;
-  background-color: royalblue;
+  background-color: rgb(0, 0, 0);
 }
 
 nav a {
@@ -50,6 +50,6 @@ main {
   justify-content: center;
   align-items: center;
   height: 100vh; /* Alterado para ocupar a altura total da tela */
-  background-color: darkblue;
+  background-color: rgb(166, 166, 237);
 }
 
